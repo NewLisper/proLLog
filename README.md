@@ -10,7 +10,7 @@ The abstract machine is almost based on [WAMBOOK](http://wambook.sourceforge.net
 wish I have time to finish it in some day.
 
 #About 99 Prolog Problems
-[It](https://sites.google.com/site/prologsite/home) provides some interesting problems for beginners. I use some of them for testing,but it's difficult to finish them all without built-ins' support. My implementation also lacks Num and related Ops, so Ints are represented in church code (z,s(z),s(s(z))..),it does cause efficiency issues.
+[The 99 Prolog Problems](https://sites.google.com/site/prologsite/home) provide some interesting problems for beginners. I use some of them for testing,but it's difficult to finish them all without built-ins' support. My implementation also lacks Num and related Ops, so Ints are represented in church code (z,s(z),s(s(z))..),it does cause efficiency issues.
 
 #How to use it
 The run.sh script is just a example for running code.pl.
