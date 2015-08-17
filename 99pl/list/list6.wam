@@ -1,0 +1,61 @@
+alloc 0
+put_list 1
+set_const a
+set_const nil
+put_list 2
+set_const b
+set_reg 1
+put_list 3
+set_const c
+set_reg 2
+put_list 4
+set_const b
+set_reg 3
+put_list 5
+set_const a
+set_reg 4
+put_via_reg 5 0
+call 21 1
+find_answer
+dealloc
+proceed
+alloc 1
+get_variable 0 0
+put_value 0 0
+put_value 0 1
+call 28 2
+dealloc
+proceed
+alloc 2
+get_variable 0 0
+get_variable 1 1
+put_value 0 0
+put_value 1 1
+put_const nil 2
+call 37 3
+dealloc
+proceed
+try_me_else 44
+alloc 1
+get_variable 0 0
+get_const nil 1
+get_value 0 2
+dealloc
+proceed
+trust_me
+alloc 4
+get_variable 0 0
+get_via_reg 3 1
+get_variable 3 2
+get_list 3
+unify_variable 1
+unify_variable 2
+put_list 3
+set_value 1
+set_value 3
+put_value 0 0
+put_value 2 1
+put_via_reg 3 2
+call 37 3
+dealloc
+proceed

@@ -1,0 +1,164 @@
+alloc 1
+put_struct s 1 2
+set_const z
+put_struct s 1 3
+set_reg 2
+put_struct s 1 4
+set_reg 3
+put_struct s 1 5
+set_const z
+put_struct s 1 6
+set_reg 5
+put_struct s 1 7
+set_const z
+put_struct s 1 8
+set_reg 7
+put_struct s 1 9
+set_reg 8
+put_struct s 1 10
+set_reg 9
+put_struct s 1 11
+set_reg 10
+put_struct s 1 12
+set_const z
+put_struct s 1 13
+set_reg 12
+put_struct s 1 14
+set_reg 13
+put_struct s 1 15
+set_reg 14
+put_struct s 1 16
+set_reg 15
+put_struct s 1 17
+set_reg 16
+put_struct s 1 18
+set_reg 17
+put_struct s 1 19
+set_const z
+put_list 20
+set_reg 19
+set_const nil
+put_list 21
+set_reg 18
+set_reg 20
+put_list 22
+set_reg 11
+set_reg 21
+put_list 23
+set_reg 6
+set_reg 22
+put_list 24
+set_reg 4
+set_reg 23
+put_via_reg 24 0
+put_variable 0 1
+call 83 2
+find_answer
+dealloc
+proceed
+try_me_else 65
+alloc 1
+get_const nil 0
+get_variable 0 1
+get_value 0 2
+dealloc
+proceed
+trust_me
+alloc 5
+get_via_reg 3 0
+get_variable 2 1
+get_variable 3 2
+get_list 3
+unify_variable 0
+unify_variable 1
+put_value 0 0
+put_value 3 1
+put_variable 4 2
+call 111 3
+put_value 1 0
+put_value 2 1
+put_value 4 2
+call 58 3
+dealloc
+proceed
+alloc 2
+get_variable 0 0
+get_variable 1 1
+put_value 0 0
+put_value 1 1
+put_const nil 2
+call 58 3
+dealloc
+proceed
+try_me_else 98
+alloc 1
+get_const z 0
+get_variable 0 1
+dealloc
+proceed
+trust_me
+alloc 2
+get_via_reg 2 0
+get_via_reg 3 1
+get_struct s 1 2
+unify_variable 0
+get_struct s 1 3
+unify_variable 1
+put_value 0 0
+put_value 1 1
+call 92 2
+dealloc
+proceed
+try_me_else 122
+alloc 1
+get_variable 0 0
+get_const nil 1
+get_via_reg 3 2
+get_struct t 3 3
+unify_value 0
+unify_const nil
+unify_const nil
+dealloc
+proceed
+retry_me_else 145
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct t 3 3
+unify_variable 1
+unify_variable 2
+unify_variable 3
+get_struct t 3 4
+unify_value 1
+unify_variable 4
+unify_value 3
+put_value 0 0
+put_value 1 1
+call 92 2
+cut
+put_value 0 0
+put_value 2 1
+put_value 4 2
+call 111 3
+dealloc
+proceed
+trust_me
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct t 3 3
+unify_variable 1
+unify_variable 2
+unify_variable 3
+get_struct t 3 4
+unify_value 1
+unify_value 2
+unify_variable 4
+put_value 0 0
+put_value 3 1
+put_value 4 2
+call 111 3
+dealloc
+proceed

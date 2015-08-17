@@ -1,0 +1,528 @@
+alloc 1
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_struct s 1 5
+set_reg 4
+put_struct s 1 6
+set_reg 5
+put_struct s 1 7
+set_reg 6
+put_struct p 2 8
+set_const z
+set_const z
+put_via_reg 7 0
+put_via_reg 8 1
+put_variable 0 2
+call 141 3
+find_answer
+dealloc
+proceed
+try_me_else 32
+alloc 2
+get_variable 0 0
+get_variable 1 1
+put_value 0 0
+put_value 1 1
+call 38 2
+cut
+fail
+dealloc
+proceed
+trust_me
+alloc 2
+get_variable 0 0
+get_variable 1 1
+dealloc
+proceed
+try_me_else 54
+alloc 3
+get_via_reg 2 0
+get_via_reg 4 1
+get_struct p 2 2
+unify_variable 0
+unify_variable 1
+get_list 4
+unify_reg 3
+unify_variable 2
+get_struct p 2 3
+unify_value 0
+unify_value 1
+cut
+dealloc
+proceed
+trust_me
+alloc 4
+get_via_reg 2 0
+get_via_reg 3 1
+get_struct p 2 2
+unify_variable 0
+unify_variable 1
+get_list 3
+unify_variable 2
+unify_variable 3
+put_struct p 2 2
+set_value 0
+set_value 1
+put_via_reg 2 0
+put_value 3 1
+call 38 2
+dealloc
+proceed
+try_me_else 90
+alloc 4
+get_variable 0 0
+get_const z 1
+get_via_reg 5 2
+get_variable 3 3
+get_via_reg 7 4
+get_struct p 2 5
+unify_variable 1
+unify_variable 2
+get_list 7
+unify_reg 6
+unify_const nil
+get_struct p 2 6
+unify_value 1
+unify_value 2
+dealloc
+proceed
+trust_me
+alloc 8
+get_variable 0 0
+get_via_reg 5 1
+get_via_reg 6 2
+get_variable 4 3
+get_via_reg 8 4
+get_struct s 1 5
+unify_variable 1
+get_struct p 2 6
+unify_variable 2
+unify_variable 3
+get_list 8
+unify_reg 7
+unify_variable 5
+get_struct p 2 7
+unify_value 2
+unify_value 3
+put_struct p 2 3
+set_value 2
+set_value 3
+put_struct p 2 4
+set_variable 6
+set_variable 7
+put_value 0 0
+put_via_reg 3 1
+put_via_reg 4 2
+call 264 3
+put_struct p 2 2
+set_value 6
+set_value 7
+put_via_reg 2 0
+put_value 4 1
+call 21 2
+put_struct p 2 5
+set_value 6
+set_value 7
+put_struct p 2 6
+set_value 6
+set_value 7
+put_list 7
+set_reg 6
+set_value 4
+put_value 0 0
+put_value 1 1
+put_via_reg 5 2
+put_via_reg 7 3
+put_value 5 4
+call 72 5
+dealloc
+proceed
+alloc 6
+get_variable 0 0
+get_via_reg 3 1
+get_variable 3 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+put_value 0 0
+put_value 0 1
+put_variable 4 2
+call 175 3
+put_struct s 1 3
+set_const z
+put_value 4 0
+put_via_reg 3 1
+put_variable 5 2
+call 220 3
+put_struct p 2 5
+set_value 1
+set_value 2
+put_struct p 2 6
+set_value 1
+set_value 2
+put_list 7
+set_reg 6
+set_const nil
+put_value 0 0
+put_value 5 1
+put_via_reg 5 2
+put_via_reg 7 3
+put_value 3 4
+call 72 5
+dealloc
+proceed
+try_me_else 182
+alloc 1
+get_const z 0
+get_variable 0 1
+get_const z 2
+dealloc
+proceed
+trust_me
+alloc 4
+get_via_reg 3 0
+get_variable 1 1
+get_variable 2 2
+get_struct s 1 3
+unify_variable 0
+put_value 0 0
+put_value 1 1
+put_variable 3 2
+call 175 3
+put_value 3 0
+put_value 1 1
+put_value 2 2
+call 242 3
+dealloc
+proceed
+try_me_else 207
+alloc 1
+get_const z 0
+get_via_reg 2 1
+get_struct s 1 2
+unify_variable 0
+dealloc
+proceed
+trust_me
+alloc 2
+get_via_reg 2 0
+get_via_reg 3 1
+get_struct s 1 2
+unify_variable 0
+get_struct s 1 3
+unify_variable 1
+put_value 0 0
+put_value 1 1
+call 199 2
+dealloc
+proceed
+try_me_else 227
+alloc 1
+get_variable 0 0
+get_const z 1
+get_value 0 2
+dealloc
+proceed
+trust_me
+alloc 3
+get_via_reg 3 0
+get_via_reg 4 1
+get_variable 2 2
+get_struct s 1 3
+unify_variable 0
+get_struct s 1 4
+unify_variable 1
+put_value 0 0
+put_value 1 1
+put_value 2 2
+call 220 3
+dealloc
+proceed
+try_me_else 249
+alloc 1
+get_const z 0
+get_variable 0 1
+get_value 0 2
+dealloc
+proceed
+trust_me
+alloc 3
+get_via_reg 3 0
+get_variable 1 1
+get_via_reg 4 2
+get_struct s 1 3
+unify_variable 0
+get_struct s 1 4
+unify_variable 2
+put_value 0 0
+put_value 1 1
+put_value 2 2
+call 242 3
+dealloc
+proceed
+try_me_else 297
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_value 1 0
+put_via_reg 3 1
+put_value 3 2
+call 242 3
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 2 0
+put_via_reg 4 1
+put_value 4 2
+call 242 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed
+retry_me_else 330
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 1 0
+put_via_reg 4 1
+put_value 3 2
+call 242 3
+put_struct s 1 3
+set_const z
+put_value 2 0
+put_via_reg 3 1
+put_value 4 2
+call 242 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed
+retry_me_else 363
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 1 0
+put_via_reg 4 1
+put_value 3 2
+call 242 3
+put_struct s 1 3
+set_const z
+put_value 2 0
+put_via_reg 3 1
+put_value 4 2
+call 220 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed
+retry_me_else 396
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_value 1 0
+put_via_reg 3 1
+put_value 3 2
+call 242 3
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 2 0
+put_via_reg 4 1
+put_value 4 2
+call 220 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed
+retry_me_else 429
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_value 1 0
+put_via_reg 3 1
+put_value 3 2
+call 220 3
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 2 0
+put_via_reg 4 1
+put_value 4 2
+call 220 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed
+retry_me_else 462
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 1 0
+put_via_reg 4 1
+put_value 3 2
+call 220 3
+put_struct s 1 3
+set_const z
+put_value 2 0
+put_via_reg 3 1
+put_value 4 2
+call 220 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed
+retry_me_else 495
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 1 0
+put_via_reg 4 1
+put_value 3 2
+call 220 3
+put_struct s 1 3
+set_const z
+put_value 2 0
+put_via_reg 3 1
+put_value 4 2
+call 242 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed
+trust_me
+alloc 5
+get_variable 0 0
+get_via_reg 3 1
+get_via_reg 4 2
+get_struct p 2 3
+unify_variable 1
+unify_variable 2
+get_struct p 2 4
+unify_variable 3
+unify_variable 4
+put_struct s 1 3
+set_const z
+put_value 1 0
+put_via_reg 3 1
+put_value 3 2
+call 220 3
+put_struct s 1 3
+set_const z
+put_struct s 1 4
+set_reg 3
+put_value 2 0
+put_via_reg 4 1
+put_value 4 2
+call 242 3
+put_value 3 0
+put_value 0 1
+call 199 2
+put_value 4 0
+put_value 0 1
+call 199 2
+dealloc
+proceed

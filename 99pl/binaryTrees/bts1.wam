@@ -1,0 +1,32 @@
+alloc 0
+put_struct t 3 1
+set_const b
+set_const nil
+set_const nil
+put_struct t 3 2
+set_const a
+set_reg 1
+set_const nil
+put_via_reg 2 0
+call 14 1
+find_answer
+dealloc
+proceed
+try_me_else 19
+alloc 0
+get_const nil 0
+dealloc
+proceed
+trust_me
+alloc 3
+get_via_reg 1 0
+get_struct t 3 1
+unify_variable 0
+unify_variable 1
+unify_variable 2
+put_value 1 0
+call 14 1
+put_value 2 0
+call 14 1
+dealloc
+proceed

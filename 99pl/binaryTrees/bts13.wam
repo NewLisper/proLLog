@@ -1,0 +1,112 @@
+alloc 1
+put_struct t 3 2
+set_const a
+set_const nil
+set_const nil
+put_struct t 3 3
+set_const e
+set_const nil
+set_const nil
+put_struct t 3 4
+set_const g
+set_reg 3
+set_const nil
+put_struct t 3 5
+set_const h
+set_reg 4
+set_const nil
+put_struct t 3 6
+set_const c
+set_reg 2
+set_reg 5
+put_struct t 3 7
+set_const m
+set_const nil
+set_const nil
+put_struct t 3 8
+set_const k
+set_reg 6
+set_reg 7
+put_struct t 3 9
+set_const q
+set_const nil
+set_const nil
+put_struct t 3 10
+set_const s
+set_reg 9
+set_const nil
+put_struct t 3 11
+set_const p
+set_const nil
+set_reg 10
+put_struct t 3 12
+set_const u
+set_reg 11
+set_const nil
+put_struct t 3 13
+set_const n
+set_reg 8
+set_reg 12
+put_via_reg 13 0
+put_variable 0 1
+call 55 2
+find_answer
+dealloc
+proceed
+alloc 3
+get_variable 0 0
+get_variable 1 1
+put_value 0 0
+put_value 1 1
+put_const o 2
+put_variable 2 3
+put_const o 4
+call 66 5
+dealloc
+proceed
+try_me_else 75
+alloc 2
+get_const nil 0
+get_const nil 1
+get_variable 0 2
+get_value 0 3
+get_variable 1 4
+dealloc
+proceed
+trust_me
+alloc 9
+get_via_reg 5 0
+get_via_reg 6 1
+get_variable 7 2
+get_variable 8 3
+get_variable 4 4
+get_struct t 3 5
+unify_variable 0
+unify_variable 1
+unify_variable 2
+get_struct t 5 6
+unify_value 0
+unify_variable 3
+unify_value 4
+unify_variable 5
+unify_variable 6
+put_struct s 1 5
+set_value 4
+put_value 1 0
+put_value 5 1
+put_value 7 2
+put_value 3 3
+put_via_reg 5 4
+call 66 5
+put_struct s 1 5
+set_value 3
+put_struct s 1 6
+set_value 4
+put_value 2 0
+put_value 6 1
+put_via_reg 5 2
+put_value 8 3
+put_via_reg 6 4
+call 66 5
+dealloc
+proceed
