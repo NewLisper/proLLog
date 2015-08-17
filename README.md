@@ -15,3 +15,4 @@ wish I have time to finish it in some day.
 #How to use it
 The run.sh script is just a example for running code.pl.
 You need to use ./compiler XXX to generate XXX.wam, then use ./wam XXX.wam to run instructions.
+You may have to recompile the source code if you are not using OSX.
